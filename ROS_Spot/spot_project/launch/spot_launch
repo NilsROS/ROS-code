@@ -1,0 +1,20 @@
+<launch>  
+  <node
+    pkg="cv_basics"
+    type="heat_publisher.py"
+    name="heat_publisher"
+    output="screen"
+  />
+  <node
+    pkg="spot_project"
+    type="main_node.py"
+    name="main_node"
+    output="screen"
+  />
+  <node
+    pkg="spot_project"
+    type="zed_node.py"
+    name="zed_node"
+    output="screen"
+  /> 
+</launch>

@@ -1,0 +1,3 @@
+geometry_msgs/PoseArray globalwaypoints #request
+---
+geometry_msgs/Pose final_pose #response

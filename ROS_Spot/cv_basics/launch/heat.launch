@@ -1,0 +1,14 @@
+<launch>
+  <node
+    pkg="cv_basics"
+    type="heat_publisher.py"
+    name="heat_publisher"
+    output="screen"
+  />
+  <node
+    pkg="cv_basics"
+    type="heat_subscriber.py"
+    name="heat_subscriber"
+    output="screen"
+  />
+</launch>
